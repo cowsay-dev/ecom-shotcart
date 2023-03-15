@@ -1,0 +1,133 @@
+.products-div {
+  width: 100%;
+  margin-top: 6.4rem;
+  display: flex;
+  padding: 1rem;
+  position: relative;
+}
+
+.prod-filter-section {
+  display: flex;
+  flex-direction: column;
+  min-width: 20rem;
+  position: fixed;
+}
+
+.prod-filter-categories h2 {
+  font-size: 2rem;
+  padding: 1rem;
+}
+
+.prod-filter-categories-list {
+  display: flex;
+  flex-direction: column;
+  border-radius: 0.4rem;
+  border: 0.1rem solid rgb(212, 212, 212);
+  padding: 1rem 0.4rem;
+}
+
+.radio-category {
+  padding: 0.4rem 1rem;
+}
+
+.radio-category label {
+  font-size: 1.2rem;
+  padding-left: 1rem;
+  color: rgb(70, 70, 70);
+}
+
+.prod-result-section {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2rem;
+  margin-left: 20rem;
+  margin-top: 1rem;
+}
+
+/* ProdCard CSS starts from here */
+.prod-card {
+  width: 22rem;
+  display: flex;
+  flex-direction: column;
+  border-radius: 0.4rem;
+  border: none;
+  margin: 1.6rem;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+.prod-card:hover {
+  box-shadow: 0rem 0rem 2rem rgba(168, 168, 168, 0.466);
+}
+
+.prod-card-details {
+  padding: 1rem;
+}
+
+.prod-card-title,
+.prod-card-rating,
+.prod-card-price {
+  margin-bottom: 0.8rem;
+}
+
+.prod-card-img {
+  width: 22rem;
+  height: 22rem;
+  margin-bottom: 1rem;
+  display: flex;
+}
+
+.prod-card-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.prod-card-title h2 {
+  font-size: 2rem;
+}
+
+.prod-card-rating {
+  display: flex;
+  align-items: center;
+}
+
+.star-icon {
+  font-size: 1.3rem;
+  color: rgb(31, 179, 154);
+  margin-left: 0.4rem;
+}
+
+.prod-card-rating p {
+  font-size: 1.2rem;
+}
+
+.prod-card-price {
+  display: flex;
+  align-items: flex-end;
+}
+
+.prod-card-price h2 {
+  font-size: 2.4rem;
+}
+
+.actual-price,
+del {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: gray;
+  margin-left: 0.6rem;
+  padding-bottom: 0.4rem;
+}
+
+.discount-percent {
+  color: rgb(255, 127, 127);
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-left: 0.8rem;
+  padding-bottom: 0.4rem;
+}
+
+.prod-card-availability {
+  font-size: 1.2rem;
+}

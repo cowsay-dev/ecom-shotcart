@@ -1,0 +1,118 @@
+.prod-page-div {
+  display: flex;
+  justify-content: center;
+  margin: 8.4rem 1rem 2rem;
+}
+
+.prod-img {
+  display: flex;
+  height: 40rem;
+  width: 40rem;
+  padding: 1rem;
+  border: 0.1rem solid rgb(212, 212, 212);
+  border-radius: 0.2rem;
+}
+
+.prod-img img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  margin-right: 0.6rem;
+}
+
+.prod-details {
+  justify-content: space-between;
+  display: flex;
+  width: 40rem;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.prod-title h2 {
+  font-size: 2.6rem;
+}
+
+.prod-description {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+.prod-description p {
+  font-size: 1.8rem;
+  color: rgb(70, 70, 70);
+}
+
+.prod-rating {
+  display: flex;
+  align-items: center;
+  border: 0.1rem solid rgb(212, 212, 212);
+  border-radius: 0.2rem;
+  width: fit-content;
+  padding: 0.4rem 1rem;
+}
+
+.prod-rating p {
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.prod-rating-icon {
+  font-size: 1.3rem;
+  margin-left: 0.6rem;
+  color: rgb(31, 179, 154);
+}
+
+.ruler {
+  height: 0.1rem;
+  width: 100%;
+  margin: 1rem 0.2rem;
+  background-color: rgb(212, 212, 212);
+}
+
+.prod-pricing {
+  display: flex;
+  align-items: center;
+}
+
+.prod-pricing h2 {
+  font-size: 2.6rem;
+  padding: 0rem 0.4rem;
+}
+
+.prod-pricing del {
+  font-size: 1.8rem;
+  padding: 0rem 0.4rem;
+}
+
+.prod-discount-percent {
+  font-size: 1.6rem;
+  padding: 0rem 1rem;
+  font-weight: 700;
+  color: rgb(255, 127, 127);
+}
+
+.dummy-1 {
+  padding: 1rem 0rem;
+}
+
+.dummy-1 p {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: rgb(31, 179, 154);
+}
+
+.prod-add {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.prod-add button {
+  width: 100%;
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: white;
+  background-color: black;
+  border: none;
+  border-radius: 0.2rem;
+  padding: 1.4rem;
+}
