@@ -13,7 +13,7 @@ function App() {
   return (
     <div className="App">
       <Provider store={store}>
-        <Router>
+        <Router basename="/ecom-shotcart">
           <Navbar />
           <Routes>
             <Route path="/" element={<Home />} />
