@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/ecom-shotcart/static/css/main.a42bdb87.css",
+    "main.js": "/ecom-shotcart/static/js/main.70d5582c.js",
+    "static/media/fragerance.png": "/ecom-shotcart/static/media/fragerance.4e53b1295f1c9feaacf5.png",
+    "static/media/grocery.jpg": "/ecom-shotcart/static/media/grocery.8f4800f8572f57a8d11e.jpg",
+    "static/media/home-decor.jpg": "/ecom-shotcart/static/media/home-decor.1a7aa661dda1e5649d40.jpg",
+    "static/media/clothing.jpg": "/ecom-shotcart/static/media/clothing.caf5e9fd23d65fa37f16.jpg",
+    "static/media/electronics.png": "/ecom-shotcart/static/media/electronics.249f531bfd163f750cd6.png",
+    "static/media/skincare.png": "/ecom-shotcart/static/media/skincare.9d0cb6e83b4855efccae.png",
+    "static/media/jewellery.jpg": "/ecom-shotcart/static/media/jewellery.d624f67add7e4987ca93.jpg",
+    "static/media/electronic.jpg": "/ecom-shotcart/static/media/electronic.2f2bdc8892a206713a8c.jpg",
+    "static/media/bag.jpg": "/ecom-shotcart/static/media/bag.0e720dd7c538d3cb8fb4.jpg",
+    "static/media/home-decor.png": "/ecom-shotcart/static/media/home-decor.5713e13d7c9712cb65db.png",
+    "static/media/watch.jpg": "/ecom-shotcart/static/media/watch.37c2af4661958d031fc4.jpg",
+    "static/media/glass.jpg": "/ecom-shotcart/static/media/glass.71d6115e489be1dd49c4.jpg",
+    "static/media/shot-Cart1.png": "/ecom-shotcart/static/media/shot-Cart1.dda3c932450c7f242cfa.png",
+    "static/media/automotive.jpg": "/ecom-shotcart/static/media/automotive.47e49dcd89db635b19ed.jpg",
+    "static/media/skincare.jpg": "/ecom-shotcart/static/media/skincare.699a9044e6260fd90bc8.jpg",
+    "static/media/empty-cart.png": "/ecom-shotcart/static/media/empty-cart.a5e22d97fd70f53a7b0b.png",
+    "static/media/utility.jpg": "/ecom-shotcart/static/media/utility.415d07619839ccbac20f.jpg",
+    "index.html": "/ecom-shotcart/index.html",
+    "main.a42bdb87.css.map": "/ecom-shotcart/static/css/main.a42bdb87.css.map",
+    "main.70d5582c.js.map": "/ecom-shotcart/static/js/main.70d5582c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a42bdb87.css",
+    "static/js/main.70d5582c.js"
+  ]
+}
