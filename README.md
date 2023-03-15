@@ -1,46 +1,32 @@
-# Getting Started with Create React App
+# E-commerce website using React.js
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The link for the deployed app is [here](https://cowsay-dev.github.io/ecom-shotcart).
 
-## Available Scripts
+## Basic funtionalities
+- Search products
+- Add item to cart
+- Change item quantities
+- Apply filter on products based on categories
+- Clean UI
 
-In the project directory, you can run:
+## Pages
+### Homepage
+![homepage-1](https://user-images.githubusercontent.com/77235287/225258791-547bbe89-61db-450e-ab4e-fceddfbc115f.png)
+![homepage-2](https://user-images.githubusercontent.com/77235287/225258912-b1322129-b32d-4aa5-b482-f3a26c1053bc.png)
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Products page
+![productpage-1](https://user-images.githubusercontent.com/77235287/225259205-36a685ef-4df3-4584-a9b1-6b8223b46e91.png)
+![productpage-2](https://user-images.githubusercontent.com/77235287/225259128-8d6f5de0-e49a-4f83-920c-adfe1f0e3f28.png)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `npm test`
+### Product page
+![prodpage](https://user-images.githubusercontent.com/77235287/225259380-b12c8426-a949-436a-8fcf-4c0c40846160.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+### Product searching
+![searchbar](https://user-images.githubusercontent.com/77235287/225259515-d42e68d2-5519-419f-94f8-c7bb2f7b84f5.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Cart page
+![cartpage](https://user-images.githubusercontent.com/77235287/225259608-a1b8138e-b15d-436e-8a18-6d7170e9a0ea.png)
