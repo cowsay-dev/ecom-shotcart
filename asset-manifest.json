@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ecom-shotcart/static/css/main.a42bdb87.css",
-    "main.js": "/ecom-shotcart/static/js/main.70d5582c.js",
+    "main.js": "/ecom-shotcart/static/js/main.90efa746.js",
     "static/media/fragerance.png": "/ecom-shotcart/static/media/fragerance.4e53b1295f1c9feaacf5.png",
     "static/media/grocery.jpg": "/ecom-shotcart/static/media/grocery.8f4800f8572f57a8d11e.jpg",
     "static/media/home-decor.jpg": "/ecom-shotcart/static/media/home-decor.1a7aa661dda1e5649d40.jpg",
@@ -21,10 +21,10 @@
     "static/media/utility.jpg": "/ecom-shotcart/static/media/utility.415d07619839ccbac20f.jpg",
     "index.html": "/ecom-shotcart/index.html",
     "main.a42bdb87.css.map": "/ecom-shotcart/static/css/main.a42bdb87.css.map",
-    "main.70d5582c.js.map": "/ecom-shotcart/static/js/main.70d5582c.js.map"
+    "main.90efa746.js.map": "/ecom-shotcart/static/js/main.90efa746.js.map"
   },
   "entrypoints": [
     "static/css/main.a42bdb87.css",
-    "static/js/main.70d5582c.js"
+    "static/js/main.90efa746.js"
   ]
 }
