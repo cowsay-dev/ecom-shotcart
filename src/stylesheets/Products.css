@@ -131,3 +131,64 @@ del {
 .prod-card-availability {
   font-size: 1.2rem;
 }
+
+@media (max-width: 480px) {
+  .products-div {
+    margin-top: 9rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .prod-filter-section {
+    display: none !important;
+  }
+
+  .prod-result-section {
+    margin: 0rem;
+    padding: 0rem;
+    justify-content: space-evenly;
+  }
+
+  .prod-card {
+    width: 16rem;
+    border-radius: 0.4rem;
+    border: none;
+    margin: 0.8rem;
+    background-color: rgb(241, 241, 241);
+  }
+
+  .prod-card-details {
+    padding: 0.8rem;
+  }
+
+  .prod-card-title,
+  .prod-card-rating,
+  .prod-card-price {
+    margin-bottom: 0.8rem;
+  }
+
+  .prod-card-img {
+    width: 16rem;
+    height: 16rem;
+    margin-bottom: 0.4rem;
+  }
+
+  .prod-card-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .prod-card-title h2 {
+    font-size: 1.8rem;
+  }
+
+  .prod-card-price h2 {
+    font-size: 2rem;
+  }
+
+  .discount-percent {
+    margin-left: 0.6rem;
+  }
+}

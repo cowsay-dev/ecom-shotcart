@@ -102,3 +102,39 @@ button {
 .sliding-btn-right button:hover {
   background-color: rgba(255, 255, 255, 0.87);
 }
+
+@media (max-width: 480px) {
+  .slide {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .slide-desc {
+    padding: 2rem;
+  }
+
+  .slide-desc div {
+    margin: 0rem;
+  }
+
+  .slide-desc-heading {
+    align-items: center;
+    font-size: 2.4rem;
+  }
+
+  .slide-desc-desc,
+  .slide-desc-explore {
+    display: none !important;
+  }
+
+  .slide-img {
+    display: flex;
+    align-items: center;
+  }
+
+  .slide-img img {
+    /* width: 34rem; */
+    height: 26rem;
+    object-fit: cover;
+  }
+}

@@ -116,3 +116,20 @@
   border-radius: 0.2rem;
   padding: 1.4rem;
 }
+
+@media (max-width: 480px) {
+  .prod-page-div {
+    display: flex;
+    flex-direction: column;
+    margin-top: 8.4rem;
+  }
+
+  .prod-img {
+    width: 100%;
+    border: none;
+  }
+
+  .prod-details {
+    width: 100%;
+  }
+}

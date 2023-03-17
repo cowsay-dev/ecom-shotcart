@@ -81,9 +81,10 @@
   position: absolute;
   top: 5rem;
   max-height: 40rem;
-  width: 50rem;
+  width: 100%;
   overflow: scroll;
   overflow-x: hidden;
+  z-index: 100;
 }
 
 .show-result-div div {
@@ -184,4 +185,31 @@ span {
   background-color: rgb(241, 241, 241);
   font-size: 2rem;
   padding: 0.4rem;
+}
+
+.temp-div {
+  display: none;
+}
+
+@media (max-width: 480px) {
+  .navbar-div {
+    padding: 1rem;
+    padding-bottom: 4rem;
+  }
+
+  .nav-first-div {
+    display: none;
+  }
+
+  .nav-mid-div {
+    margin: 0rem;
+  }
+
+  .temp-div {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 5rem;
+  }
 }

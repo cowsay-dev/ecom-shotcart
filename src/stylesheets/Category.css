@@ -66,3 +66,25 @@
 .category-card-btn button:hover {
   background-color: rgb(26, 26, 26);
 }
+
+@media (max-width: 480px) {
+  .category-section {
+    margin-top: 1rem;
+  }
+
+  .category-heading h1 {
+    font-size: 2rem;
+    padding: 1rem;
+  }
+
+  .category-card {
+    width: 18rem;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    margin: 0.6rem;
+    border: 0.1rem solid rgb(212, 212, 212);
+    transition: 0.2s ease-in-out;
+    border-radius: 0.2rem;
+  }
+}

@@ -64,7 +64,7 @@ const Navbar = () => {
           <div className="show-result-div">
             {data
               .filter((val: ProductInterface) => {
-                return val.title.toLowerCase().includes(query);
+                return val.title.toLowerCase().includes(query.toLowerCase());
               })
               .map((val: ProductInterface, index: number) => {
                 return (
@@ -78,6 +78,15 @@ const Navbar = () => {
               })}
           </div>
         )}
+
+        <div className="temp-div">
+          <div className="nav-about-div">
+            <Link to="/">HOME</Link>
+          </div>
+          <div className="nav-about-div">
+            <Link to="/products">PRODUCTS</Link>
+          </div>
+        </div>
       </div>
       <div className="nav-last-div" onClick={() => navigate("/cart")}>
         <MdOutlineShoppingCart style={{ width: 24, height: 24 }} />
